@@ -1,0 +1,16 @@
+Flask
+python-dotenv
+Flask-SQLAlchemy
+SQLAlchemy
+Werkzeug
+requests
+beautifulsoup4
+psycopg2
+psycopg2-binary
+pandas
+flask-cors
+boto3 > 1.15
+dnspython >= 2.0.0
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib

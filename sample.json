@@ -1,0 +1,149 @@
+{
+  "entityMentions": [
+    {
+      "mentionId": "1",
+      "type": "PROCEDURE",
+      "text": {
+        "content": "percutaneous cardiovascular procedures",
+        "beginOffset": 0
+      },
+      "linkedEntities": [{ "entityId": "UMLS/C0189573" }],
+      "temporalAssessment": {
+        "value": "CURRENT",
+        "confidence": 0.771858811378479
+      },
+      "certaintyAssessment": {
+        "value": "LIKELY",
+        "confidence": 0.9310330748558044
+      },
+      "subject": { "value": "PATIENT", "confidence": 0.9990071058273315 },
+      "confidence": 0.803433895111084
+    },
+    {
+      "mentionId": "2",
+      "type": "SEVERITY",
+      "text": { "content": "acute", "beginOffset": 47 },
+      "linkedEntities": [
+        { "entityId": "UMLS/C0086066" },
+        { "entityId": "UMLS/C1859506" },
+        { "entityId": "UMLS/C1859507" },
+        { "entityId": "UMLS/C3263145" },
+        { "entityId": "UMLS/C3273245" }
+      ],
+      "confidence": 0.9188601970672607
+    },
+    {
+      "mentionId": "3",
+      "type": "PROBLEM",
+      "text": { "content": "myocardial infarction", "beginOffset": 53 },
+      "linkedEntities": [{ "entityId": "UMLS/C0027051" }],
+      "temporalAssessment": {
+        "value": "CURRENT",
+        "confidence": 0.8016411066055298
+      },
+      "certaintyAssessment": {
+        "value": "UNLIKELY",
+        "confidence": 0.8439009785652161
+      },
+      "subject": { "value": "PATIENT", "confidence": 0.9996469616889954 },
+      "confidence": 0.987529993057251
+    },
+    {
+      "mentionId": "4",
+      "type": "ANATOMICAL_STRUCTURE",
+      "text": { "content": "coronary artery", "beginOffset": 84 },
+      "linkedEntities": [{ "entityId": "UMLS/C0205042" }],
+      "confidence": 0.5243352651596069
+    },
+    {
+      "mentionId": "5",
+      "type": "PROCEDURE",
+      "text": { "content": "stent implant", "beginOffset": 100 },
+      "linkedEntities": [{ "entityId": "UMLS/C0851194" }],
+      "temporalAssessment": {
+        "value": "CURRENT",
+        "confidence": 0.9529387950897217
+      },
+      "certaintyAssessment": {
+        "value": "UNLIKELY",
+        "confidence": 0.9200685024261475
+      },
+      "subject": { "value": "PATIENT", "confidence": 0.9996469616889954 },
+      "confidence": 0.3607589602470398
+    }
+  ],
+  "entities": [
+    {
+      "entityId": "UMLS/C0027051",
+      "preferredTerm": "Myocardial Infarction",
+      "vocabularyCodes": [
+        "HPO/HP:0001658",
+        "LNC/LA14274-7",
+        "LNC/LA16286-9",
+        "LNC/LP98884-7",
+        "LNC/MTHU035551",
+        "MEDLINEPLUS/5",
+        "MSH/D009203",
+        "MTH/NOCODE",
+        "NCI/C27996",
+        "OMIM/MTHU002361",
+        "OMIM/MTHU008101"
+      ]
+    },
+    {
+      "entityId": "UMLS/C0086066",
+      "preferredTerm": "Acute Coryza",
+      "vocabularyCodes": ["MSH/D003139", "MTH/NOCODE"]
+    },
+    {
+      "entityId": "UMLS/C0189573",
+      "preferredTerm": "Cardiovascular procedures",
+      "vocabularyCodes": ["MTH/NOCODE"]
+    },
+    {
+      "entityId": "UMLS/C0205042",
+      "preferredTerm": "Coronary artery",
+      "vocabularyCodes": [
+        "FMA/3800",
+        "FMA/49893",
+        "LNC/LP199923-6",
+        "LNC/LP200177-6",
+        "LNC/LP34720-0",
+        "LNC/MTHU011042",
+        "LNC/MTHU050086",
+        "MSH/D003331",
+        "MTH/NOCODE",
+        "NCI/C12843"
+      ]
+    },
+    {
+      "entityId": "UMLS/C0851194",
+      "preferredTerm": "Biliary Stent Implantation",
+      "vocabularyCodes": ["MTH/NOCODE", "NCI/C62741"]
+    },
+    {
+      "entityId": "UMLS/C1859506",
+      "preferredTerm": "Acute hyperammonemia",
+      "vocabularyCodes": ["HPO/HP:0008281", "OMIM/MTHU014217"]
+    },
+    {
+      "entityId": "UMLS/C1859507",
+      "preferredTerm": "Ketonuria, acute",
+      "vocabularyCodes": ["OMIM/MTHU014218"]
+    },
+    {
+      "entityId": "UMLS/C3263145",
+      "preferredTerm": "Laboratory - acute",
+      "vocabularyCodes": ["LNC/LP136006-6", "LNC/MTHU043025"]
+    },
+    {
+      "entityId": "UMLS/C3273245",
+      "preferredTerm": "Acute Rejection",
+      "vocabularyCodes": ["NCI/C97128"]
+    }
+  ],
+  "relationships": [
+    { "subjectId": "3", "objectId": "1", "confidence": 0.5543729066848755 },
+    { "subjectId": "3", "objectId": "2", "confidence": 0.9992797374725342 }
+  ]
+}
